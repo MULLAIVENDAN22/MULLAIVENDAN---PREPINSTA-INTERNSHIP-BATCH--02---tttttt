@@ -1,0 +1,56 @@
+/* src/components/ContactForm.css */
+.contact-section {
+    padding: 40px 20px;
+    background: transparent;
+    text-align: center;
+    
+    height: 100vh;
+  }
+
+  .background-video {
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    font-size: 30px;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    z-index: 2;
+    transform: translateY(-600px);
+  }
+
+  .contact-form input::placeholder, .contact-form textarea::placeholder {
+    color: rgba(147, 147, 147,0.3);
+    opacity: 0.5; /* Change the color to your desired value */
+  }
+  
+  .contact-form label {
+    display: block;
+    margin: 15px 0;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .contact-form button {
+    background: #f04e30;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  

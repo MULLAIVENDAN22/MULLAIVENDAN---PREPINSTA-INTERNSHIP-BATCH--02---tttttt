@@ -1,0 +1,38 @@
+/* src/components/Header.css */
+.header {
+    background: rgb(45, 43, 43);
+    color: #fff;
+    padding:  0;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .logo {
+    font-size: 1.9rem;
+  }
+  
+  .nav-links {
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .nav-links li a :hover{
+    filter: drop-shadow(5 3 2em #ffffff);
+  }
+  

@@ -1,0 +1,12 @@
+export { default as parisImage } from './paris.jpg';
+export { default as newYorkImage } from './new york.jpg';
+export { default as tokyoImage } from './tokyo.jpg';
+export { default as londonImage } from './london.jpg';
+export { default as romeImage } from './rome.jpg';
+export { default as barcelonaImage } from './barcelona.jpg';
+export { default as losAngelesImage } from './los angles.jpg';
+export { default as sanFranciscoImage } from './san francisco.jpg';
+export { default as bangkokImage } from './bangkok.jpeg';
+export { default as dubaiImage } from './dubai.jpg';
+export { default as sydneyImage } from './syndey.jpg';
+export { default as rioDeJaneiroImage } from './Rio de Janeiro.jpg';

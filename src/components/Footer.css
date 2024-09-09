@@ -1,0 +1,21 @@
+/* src/components/Footer.css */
+.footer {
+    background: #333;
+    color: #fff;
+    padding: 25px 20px;
+    text-align: center;
+    transform: translateY(-10px);
+    margin-left: 10px;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .social-media a {
+    color: #fff;
+    margin: 0 20px;
+    font-size: 1rem;
+  }
+  
